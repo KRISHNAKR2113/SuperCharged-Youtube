@@ -13,7 +13,7 @@ if "last_query" not in st.session_state:
     st.session_state.last_query = ""
 
 # ============ CONFIGURATION ============
-API_KEY = "AIzaSyAMQLE3TZCiSBtyLOzZI5cnzslEf9YDEMc"  # Replace with your YouTube Data API key
+API_KEY = ""  # Replace with your YouTube Data API key
 MAX_RESULTS = 21  # Number of videos to fetch per query
 
 st.set_page_config(page_title="📺Supercharged Youtube Premium Search📺", layout="wide")
